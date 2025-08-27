@@ -9,5 +9,5 @@ for (const Icon of heartIcon){
         let finalHeartCount = initialHeart + heartNumber;
         console.log(finalHeartCount);
         document.getElementById("initial-heart").innerText = finalHeartCount;        
-    }, { once: true })
+    })
 }
