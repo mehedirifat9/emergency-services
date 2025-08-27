@@ -4,7 +4,7 @@ const callButton = document.getElementsByClassName('call-button');
 
 const historySection = document.getElementById('history-section');
 let coinCount = parseInt(document.getElementById('coin-count').innerText);
-console.log(coinCount);
+// console.log(coinCount);
 
 
 const callCharge = 20;
